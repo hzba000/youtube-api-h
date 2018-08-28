@@ -1,0 +1,42 @@
+.result-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.pic-container{
+    margin-right: 10px;
+}
+
+.description-container{
+    max-width: 400px;
+}
+
+.result-title a{
+    font-size:20px;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.result-title a:hover{
+    color: red;
+}
+
+/* .js-hide-button{
+    display:none;
+} */
+
+
+@media only screen and (max-width: 600px){
+
+    .result-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .pic-container{
+        margin-bottom: 0;
+    }
+    
+
+
+}
