@@ -15,7 +15,7 @@ function renderResult(result) {
     <div class="result-container">
 
         <div class="pic-container">
-            <p> <a href = "https://www.youtube.com/watch?v=${result.id.videoId}"><img src= "${result.snippet.thumbnails.medium.url}"></a> </p>
+            <p> <a href = "https://www.youtube.com/watch?v=${result.id.videoId}"><img src= "${result.snippet.thumbnails.medium.url}" alt="thumbnail"></a> </p>
         </div>
 
         <div class="description-container">
