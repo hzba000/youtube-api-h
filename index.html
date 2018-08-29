@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
@@ -11,18 +11,22 @@
         <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-      <main>
+      <main role="main" aria-live="polite">
         <h1>Search videos on youtube</h1>
           <form action="#" class="js-search-form">
-            <label for="query"></label>
-            <input type="text" class="js-query">
+            <label for="query" aria-label="query"></label>
+            <input type="text" class="js-query" id="query">
             <button type="submit">Search</button>
           </form>
+         <h2 class="hidden result-header">Results</h2>
+         <h3 class="hidden result-number"> Total Results: </h3>
+         
           
-          <h2>Results</h2>
+        
           
-          <div class="js-search-results">
-          </div>
+
+        <div class="js-search-results" aria-live="polite">
+        </div>
 
           <!-- <button type="button" class="next-button, js-hide-button">Next Button</button> -->
       </main>
